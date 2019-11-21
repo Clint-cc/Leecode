@@ -2,7 +2,6 @@
 # @Author  : Clint
 
 
-
 num1 = [1, 3, 3, 7]
 num2 = [2, 5, 8, 7]
 

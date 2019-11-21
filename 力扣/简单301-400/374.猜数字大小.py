@@ -5,11 +5,11 @@
 def guess(x):
     pick = 6
     if x > pick:
-        return 1   # 选的数大了
+        return 1  # 选的数大了
     elif x < pick:
         return -1  # 选的数小了
     else:
-        return 0   # 选对了
+        return 0  # 选对了
 
 
 def guessNumber(n):
@@ -28,4 +28,3 @@ def guessNumber(n):
 
 
 print(guessNumber(10))
-

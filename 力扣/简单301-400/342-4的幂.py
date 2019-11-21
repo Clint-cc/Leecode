@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # @Author  : Clint
-from LeetCode练习 import calculate_time as cal
+from 力扣 import calculate_time as cal
 
 # 方法一：
 '''  
@@ -18,7 +18,6 @@ def isPowerOftwo(num):
 
 print(isPowerOftwo(1048576))
 '''
-
 
 # 方法二：一行代码
 '''

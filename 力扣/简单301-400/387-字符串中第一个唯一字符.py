@@ -2,7 +2,7 @@
 # @Author  : Clint
 
 
-def firstUniqChar(self, s):
+def firstUniqChar(s):
     """
     :type s: str
     :rtype: int
