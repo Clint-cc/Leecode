@@ -1,5 +1,3 @@
-
-
 def reverse_num(num):
     initial_num = num
     if num > 0:
