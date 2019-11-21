@@ -34,6 +34,8 @@ class MinStack(object):
         :rtype: int
         """
         return min(self.stack)
+
+
 # Your MinStack object will be instantiated and called as such:
 obj = MinStack()
 obj.push(-2)
@@ -42,4 +44,3 @@ obj.push(-3)
 print(obj.getMin())
 obj.pop()
 print(obj.top())
-
