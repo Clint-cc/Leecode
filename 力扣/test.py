@@ -3,7 +3,7 @@
 
 
 def test(nums):
-    nums.sort(reverse=True)
+    return nums.sort()
 
 
-print(test([1,-2,5,0,9,8,0,1,-4]))
+print(test([1, -2, 5, 0, 9, 8, 0, 1, -4]))
