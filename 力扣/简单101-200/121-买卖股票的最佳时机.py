@@ -2,7 +2,7 @@
 # @Author  : Clint
 
 
-def maxProfit(prices):       # [9, 1, 8, 5, 3, 6, 4]
+def maxProfit(prices):       # [7,1,5,3,6,4]
     if not len(prices):
         return 0
     minprice = max(prices)
@@ -16,6 +16,6 @@ def maxProfit(prices):       # [9, 1, 8, 5, 3, 6, 4]
     return maxprofit
 
 
-print(maxProfit([9, 1, 8, 5, 3, 6, 4]))
+print(maxProfit([7,1,5,3,6,4]))
 
 
