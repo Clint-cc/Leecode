@@ -2,8 +2,6 @@
 # -*- coding:utf-8 -*-
 # @Author : Clint
 
-from 力扣 import calculate_time as cal
-
 # 方法一：
 '''  
 
