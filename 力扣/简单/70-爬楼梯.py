@@ -1,5 +1,6 @@
+# !D:/Code/python
 # -*- coding:utf-8 -*-
-# @Author  : Clint
+# @Author : Clint
 
 
 def climbStairs(n):
@@ -17,4 +18,3 @@ def climbStairs(n):
 
 
 print(climbStairs(6))
-

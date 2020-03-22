@@ -1,5 +1,6 @@
+# !D:/Code/python
 # -*- coding:utf-8 -*-
-# @Author  : Clint
+# @Author : Clint
 
 a = [1, 3, 5, 0, 0, 0]
 b = [2, 4, 6]

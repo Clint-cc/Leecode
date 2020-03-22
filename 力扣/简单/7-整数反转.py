@@ -1,7 +1,6 @@
+# !D:/Code/python
 # -*- coding:utf-8 -*-
-# @Author  : Clint
-
-x = -123
+# @Author : Clint
 
 
 def reverse_num(num):
@@ -28,4 +27,4 @@ def reverse_num(num):
             return 0
 
 
-print(reverse_num(x))
+print(reverse_num(-123))

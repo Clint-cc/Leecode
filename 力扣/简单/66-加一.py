@@ -1,13 +1,14 @@
+# !D:/Code/python
 # -*- coding:utf-8 -*-
-# @Author  : Clint
+# @Author : Clint
 
 
 def plusone(digits):
     n = 0
     a = []
     for i in digits:
-        n = n*10+int(i)
-    for j in str(n+1):
+        n = n * 10 + int(i)
+    for j in str(n + 1):
         a.append(int(j))
     return a
 

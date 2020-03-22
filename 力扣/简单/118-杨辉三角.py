@@ -1,15 +1,15 @@
+# !D:/Code/python
 # -*- coding:utf-8 -*-
-# @Author  : Clint
+# @Author : Clint
 
 
+# 方法一
 def gene(numRows):
     r = []
     for i in range(numRows):
         r.append([1] + [sum(r[-1][j:j + 2]) for j in range(i)])
     return r
 
-
-print(gene(3))
 
 # 方法二
 '''
@@ -25,3 +25,5 @@ def tri(max):
     return 'done'
 
 '''
+
+print(gene(3))
