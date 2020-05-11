@@ -22,7 +22,6 @@ def isValid(parentheses):
 class Solution():
     def generateParenthesis(self, n):
         res = []
-        result = 0
         self.dfs(res, n, n, '')
         return res
 

@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 # @Author : Clint
 # @Question :
+# @Thinking :
 
 def Maxsubstr(nums):
     for i in range(1, len(nums)):
