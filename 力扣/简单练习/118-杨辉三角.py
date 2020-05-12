@@ -25,5 +25,5 @@ def tri(max):
     return 'done'
 
 '''
-
-print(gene(3))
+for i in gene(10):
+    print(i)
