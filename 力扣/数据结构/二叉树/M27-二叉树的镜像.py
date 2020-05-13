@@ -21,6 +21,3 @@ class Solution:
         if root:
             root.left, root.right = self.mirrorTree(root.right), self.mirrorTree(root.left)
         return root
-
-
-print(Solution.mirrorTree([4, 2, 7, 1, 3, 6, 9]))
