@@ -1,6 +1,6 @@
 ### python3中关于队列（FIFO：先进先出）
 - collections是python内建的一个集合模块，里面封装了许多集合类，
-其中队列相关的集合只有一个：deque。
+其中队列相关的集合只有一个：deque。也可在queue模块中导入队列的类，from queue import Queue
 - deque 是双边队列（double-ended queue），具有队列和栈的性质，在 list 的基础上增加了移动、旋转和增删等。
 
 ```python
