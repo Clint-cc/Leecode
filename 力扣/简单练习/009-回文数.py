@@ -23,4 +23,4 @@ def reverse_num(num):
         return False
 
 
-print(reverse_num(-101))
+print(reverse_num(87788))

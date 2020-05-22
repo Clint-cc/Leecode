@@ -15,6 +15,6 @@ d.pop()                     # 在最右边删除一个元素, return：d=deque([
 d.popleft()                 # 在最左边删除一个元素, return：d=deque(['e'，'b','a'，'c'])
 d.rotate(-2)                # 向左旋转2个位置（正数则向右旋转）, return：d=deque(['a', 'c', 'e', 'b'])
 d.reverse()                 # 队列倒序(或者反转), return：d=deque(['b', 'e', 'c', 'a'])
-d.count('a')                # 队列'a'的个数, return 1
+d.count('a')                # 队列(Queue)'a'的个数, return 1
 d.remove('c')               # 从左边删除一个元素'c', return：d=deque(['b', 'e', 'a'])
 ```

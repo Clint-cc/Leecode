@@ -1,8 +1,8 @@
 # !D:/Code/python
 # -*- coding:utf-8 -*-
 # @Author : Clint
-# @Question : 我们把只包含因子 2、3 和 5 的数称作丑数（Ugly Number）。求按从小到大
-#             的顺序的第 n 个丑数。
+# @Question : 我们把只包含因子 2、3和5的数称作丑数（Ugly Number）。求按从小到大
+#             的顺序的第n个丑数。
 
 
 def nthUglyNumber(n):
