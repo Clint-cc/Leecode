@@ -1,7 +1,8 @@
 # !D:/Code/python
 # -*- coding:utf-8 -*-
 # @Author : Clint
-# @Question : 
+# @Question : 从字符串string开始完整匹配子串sub，返回匹配到的字符个数。'?'表示可以匹配1-3个除'\0'以外的任意字符
+#             如: abcdefg 和 a?c 返回3; aabcddefg 和 b?e 不能匹配返回-1.
 # @Thinking :
 
 

@@ -9,7 +9,9 @@
 # # print(b.s)
 import re
 
-s = '+123dwa'
+s = [1, 2, 3]
+t = [2, 3, 4, 5]
 
-ans = [0] * 4
-print(ans)
+k = sorted(s + t)
+s = (1 & 0)
+print(s)

@@ -29,7 +29,7 @@ class Solution:
                     valid += 1
 
             # 判断左侧窗口是否要收缩
-            while valid == len(need):
+            while valid == len(need):  # 判断need的长度而不是t，是因为t可能是‘aa’
                 # 更新最小覆盖子串
                 if right - left < le:
                     start = left
