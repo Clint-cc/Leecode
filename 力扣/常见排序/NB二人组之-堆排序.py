@@ -36,9 +36,11 @@ def sift(nums, low, high):
 
 def heap_sort(nums):
     n = len(nums)
+
+    # 建大根堆
     for i in range(n // 2 - 1, -1, -1):
         sift(nums, i, n - 1)
-    # 堆建好了
+
     for i in range(n - 1, -1, -1):  # i指向堆的最后
         nums[0], nums[i] = nums[i], nums[0]  # 父节点出局，堆的最后叶子节点上位
         sift(nums, 0, i - 1)  # 调整出新的父节点

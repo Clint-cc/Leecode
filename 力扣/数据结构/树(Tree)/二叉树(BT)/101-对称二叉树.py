@@ -14,6 +14,7 @@ class Solution:
         elif not l_root or not r_root:
             return False
 
-        if l_root.val == r_root.val:
-            return self.l_r_Symmetric(l_root.left, r_root.right) and \
-                   self.l_r_Symmetric(l_root.right, r_root.left)
+        if l_root.val != r_root.val:
+            return False
+        return self.l_r_Symmetric(l_root.left, r_root.right) and \
+               self.l_r_Symmetric(l_root.right, r_root.left)

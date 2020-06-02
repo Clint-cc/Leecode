@@ -3,12 +3,6 @@
 # @Author : Clint
 # @Question :
 
-# def mirrorTree(root:TreeNode) -> TreeNode:
-#     if not root:
-#         return
-#     root.left, root.right = mirrorTree(root.right), mirrorTree(root.left)
-#     return root
-
 class TreeNode:
     def __init__(self, x):
         self.val = x
