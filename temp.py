@@ -69,27 +69,50 @@
 #             return True
 #
 #
-# s = Solution()
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+# l1 = ListNode(0)
+# # l1 = ListNode(2)
+# # l1.next = ListNode(4)
+# # l1.next.next = ListNode(3)
+# # l1.next.next.next = ListNode(None)
 #
-# print(s.hasAllCodes("00110110", 2))
-# print(s.hasAllCodes("00110", 2))
-# print(s.hasAllCodes("0110", 2))
-# print(s.hasAllCodes("0110", 1))
-# print(s.hasAllCodes("0000000001011100", 4))
-
-# "00110110"
-# 2
-# "00110"
-# 2
-# "0110"
-# 1
-# "0110"
-# 2
-# "0000000001011100"
-# 4
-
-
-a = [[1]]
-a.append([2])
-a.append(4)
-print(a)
+# l2 = ListNode(0)
+# # l2 = ListNode(5)
+# # l2.next = ListNode(6)
+# # l2.next.next = ListNode(4)
+# # l2.next.next.next = ListNode(None)
+#
+#
+# # class Solution:
+# #     def addTwoNumbers(self, l1: ListNode, l2: ListNode):
+# #         s1, s2 = '', ''
+# #         while l1:
+# #             s1 += str(l1.val)
+# #             l1 = l1.next
+# #         num1 = int(s1[::-1])
+# #
+# #         while l2:
+# #             s2 += str(l2.val)
+# #             l2 = l2.next
+# #         num2 = int(s2[::-1])
+# #
+# #         res = num1 + num2
+# #
+# #         result = ListNode(None)
+# #         cur = result
+# #         while res:
+# #             cur.next = ListNode(res % 10)
+# #             res = res // 10
+# #             cur = cur.next
+# #         return result.next
+# #
+# # s = Solution()
+# # # print()
+# # p = s.addTwoNumbers(l1, l2)
+# # while p:
+# #     print(p.val, end=' ')
+# #     p = p.next
+#

@@ -19,7 +19,6 @@ class Solution:
         # for i in range(1, N + 1)
         #     memo.setdefault(i, 0) for i in range(1, N + 1)
         memo = [0 for _ in range(N + 1)]  # 列表形式的memo
-
         return self.memo_helper(memo, N)
 
     def memo_helper(self, memo, N):
