@@ -16,6 +16,7 @@ class Solution:
             if len(track) == n:  # 满足条件
                 res.append(track)
                 return
+
             for i in range(n):
 
                 # 在回溯前后需要进行是否剪枝判断

@@ -23,9 +23,9 @@ class Solution:
             for i in range(1, n + 1):
                 if not track and i == 1:  # 第一个人不能再第一个房间
                     continue
-                if str(i) in track:
+                if str(i) in track:  # 访问后的人
                     continue
-                if i == len(track) + 1:
+                if i == len(track) + 1:  # 当前位置，不能是之前对应的人
                     continue
                 if track and abs(i - int(track[-1])) <= 1:
                     continue

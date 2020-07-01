@@ -115,4 +115,76 @@
 # # while p:
 # #     print(p.val, end=' ')
 # #     p = p.next
+# #
+# def findMaxLength(nums):
+#     s_sum = 0
+#     total_sum = [0]
+#     for num in nums:
+#         if num != 0:
+#             s_sum += 1
+#             total_sum.append(s_sum)
+#         else:
+#             s_sum -= 1
+#             total_sum.append(s_sum)
+#     return total_sum
 #
+# print(findMaxLength([0,0,1,0,0,0,1,1]))
+
+
+# class Solution:
+#     def isPalindrome(self, s: str) -> bool:
+#         snum = ""
+#         for st in s:
+#             if st.isalpha():
+#                 snum += st
+#         snum = snum.upper()
+#         i, j = 0, len(snum) - 1
+#         while i < j:
+#             if snum[i] != snum[j]:
+#                 return False
+#             i += 1
+#             j -= 1
+#         return True
+#
+#
+# s = Solution()
+# print(s.isPalindrome("A man, a plan, a canal: Panama"))
+# print(s.isPalindrome("race a car"))
+
+
+# def sift(data_list, low, high):
+#     i = low         # 最开始的父节点
+#     j = 2*i+1       # 最开始的左子节点
+#     tmp = data_list[i]
+#     while j < high:    # 如果子节点没到子树的最后，那么继续
+#         if data_list[j] < data_list[j+1] and j+1 <= high:
+#             j += 1
+#         if tmp < data_list[j]:   # 如果父节点比子节点小
+#             data_list[i] = data_list[j]   # 那么父子节点互换
+#             i = j                # 字节点成为父节点
+#             j = 2*i+1            # 新子节点
+#         else:
+#             break
+#     data_list[i] = tmp
+#
+#
+# def heap_sort(data_list):
+#     n = len(data_list)
+#     for i in range(n//2 - 1, -1, -1):
+#         sift(data_list, i, n-1)
+#     # 堆建好了
+#     for i in range(n-1, -1, -1):    # i指向堆的最后
+#         data_list[0], data_list[i] = data_list[i], data_list[0]     # 父节点出局，堆的最后叶子节点上位
+#         sift(data_list, 0, i-1)     # 调整出新的父节点
+#
+# data = [0, 1, 1, 1, 2, 3]
+# heap_sort(data)
+# print(data)  # 升序排列，若要降序排列，则建小根堆即
+
+
+from collections import Counter
+
+s = 'abc'
+dict = Counter(s)
+
+print(dict['d'])

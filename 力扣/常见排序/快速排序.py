@@ -2,7 +2,8 @@
 # -*- coding:utf-8 -*-
 # @Author : Clint
 # @Question : 排序(正序)
-# @Thinking : 取一个元素tmp(第一个元素)，使元素tmp归位；列表被tmp分成两部分，左边都比tmp小，右边比tmp大，递归完成排序；
+# @Thinking : 取一个元素tmp(第一个元素)，使元素tmp归位；列表被tmp分成两部分，左边都比tmp小，
+#             右边比tmp大，递归完成排序；
 
 
 def Quick_Sort(nums, left, right):

@@ -21,4 +21,4 @@ class Solution:
 
 
 s = Solution()
-print(s.rob([1, 2, 3, 1, 2]))
+print(s.rob([1, 3, 5, 4, 10, 8, 7]))

@@ -3,7 +3,7 @@
 # @Author : Clint
 # @Question : 斐波那契第n项的值
 # @Thinking : dp、带备忘录的dp（剪枝）、dp table
-
+from collections import defaultdict
 
 class Solution:
     # dp
@@ -13,9 +13,9 @@ class Solution:
         else:
             return self.fib(N - 1) + self.fib(N - 2)
 
-    # 带demo的dp（自顶向下）
+    # 带memo的dp（自顶向下）
     def memo_fib(self, N):
-        # memo = {}   # 字典形式的memo
+        # memo = {}   # 字典形式的memo, 判断in O（1）
         # for i in range(1, N + 1)
         #     memo.setdefault(i, 0) for i in range(1, N + 1)
         memo = [0 for _ in range(N + 1)]  # 列表形式的memo
